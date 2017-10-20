@@ -22,7 +22,7 @@ module.exports = function (config) {
     },
     remapIstanbulReporter: {
       reports: {
-        html: 'coverage',
+        java: 'coverage',
         lcovonly: './coverage/coverage.lcov'
       }
     },
